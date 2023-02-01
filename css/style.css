@@ -23,11 +23,11 @@ svg {
 }
 
 /* class container para estructura general*/
-.container {
+/* .container {
   width: 80%;
   margin: 0 auto;
   max-width: 1320px;
-}
+} */
 
 /* ORGANIZADORES FLEX clas ROW--xx */
 .row--between {
