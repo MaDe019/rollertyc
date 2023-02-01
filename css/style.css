@@ -22,13 +22,6 @@ svg {
   max-width: 100%;
 }
 
-/* class container para estructura general*/
-/* .container {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1320px;
-} */
-
 /* ORGANIZADORES FLEX clas ROW--xx */
 .row--between {
   display: flex;
@@ -240,8 +233,4 @@ footer {
     font-size: 1.25rem;
     line-height: 1;
   }
-}
-
-.nav__item--right {
-  text-align: right;
 }
