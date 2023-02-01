@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imgs/LOGO-MINI-BLANCO.png" />
+    <!-- shift + alt + a = comenta/descomenta -->
+    <!-- shift + alt + flechita abajo = duplica etiqueta -->
+    <!-- BOOSTRAP (antes de CSS) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- ESTILO CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>ROLLER T&C</title>
+
+    <!-- GOOGLE FONT - INSERTAR FUENTE -->
+    <script
+      src="https://kit.fontawesome.com/f0a8fd0838.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONTAWESOME PARA FUENTES DE ICONOS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div>
+        <div>
+          <!-- NAV BAR -->
+          <nav class="navbar navbar-expand-md bg-black" data-bs-theme="dark">
+            <div class="container">
+              <!-- aca va logo con link inicio-->
+              <a href="index.html"
+                ><img
+                  src="imgs/LOGO-ROLL-ER-SOLO-BLANCO.png"
+                  alt="ROLLER-LOGO"
+                  class="header__brand"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Inicio</a
+                  >
+                  <a class="nav-link" href="pages/cortinas.html">Cortinas</a>
+                  <a class="nav-link" href="pages/toldos.html">Toldos</a>
+                  <a class="nav-link" href="pages/info.html">+Info</a>
+                  <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!--  <nav>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="pages/cortinas.html">Cortinas</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="pages/toldos.html">Toldos</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="pages/info.html">+Info</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </nav>-->
+        </div>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <section>
+        <article class="container-md">
+          <div>
+            <div>
+              <div class="row--center">
+                <h1 class="main__title">Roll.ER T&C</h1>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="container-fluid">
+            <div class="col">
+              <div class="article__text">
+                <p>
+                  Realizamos venta, fabricación e instalación de
+                  <strong>toldos y cortinas Roller a medida</strong> en Parana,
+                  Santa Fe y alrededores.
+                </p>
+              </div>
+              <div class="article__text">
+                <p>
+                  Atención personalizada, comunicate con nosotros
+                  <strong>¡Nuestro equipo espera por ayudarte!</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- BOTON DE CONTACTO -->
+          <div class="container">
+            <div class="row--center">
+              <a
+                href="http://wa.me/5493426130245?text=Hola!%20Necesito%20información"
+              >
+                <button type="button" class="btn row--center">
+                  <span class="btn__text">Escribinos!</span
+                  ><i class="fa-brands fa-whatsapp"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </article>
+        <!-- zocalo de fotos -->
+        <article class="container-md">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="imgs/GALERIA-TRABAJOS/pexels-hương-lan-nguyễn-5543824.jpg"
+                  class="d-block w-100"
+                  alt="aula-cortina-roller"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cortina Roller Screen</h5>
+                  <p>Funcionales y decorativas.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="imgs/GALERIA-TRABAJOS/pexels-max-vakhtbovych-7061339.jpg"
+                  class="d-block w-100"
+                  alt="comedor-cortina-roller"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cortina Roller Traslucidas</h5>
+                  <p>
+                    Permiten armonizar ambientes y darle ese toque de calidez.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="imgs/GALERIA-TRABAJOS/pexels-max-vakhtbovych-7511745.jpg"
+                  class="d-block w-100"
+                  alt="oficna-cortina-roller"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cortinas Roller Blackout</h5>
+                  <p>Aportan eficiencia y un mayor control lumínico.</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- <div class="article__galery">
+            <div class="container">
+              <div class="row--between">
+                <img
+                  src="imgs/GALERIA-TRABAJOS/pexels-hương-lan-nguyễn-5543824.jpg"
+                  alt=""
+                  class="article__img"
+                />
+              </div>
+            </div>
+          </div> -->
+        </article>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="col">
+        <!-- footer social media -->
+        <div class="container footer-sm">
+          <div class="row--center">
+            <!-- aca va logo SIN link inicio-->
+            <span
+              ><img
+                src="imgs/LOGO-ROLL-ER-SOLO-BLANCO.png"
+                alt="ROLLER-TYC"
+                class="footer-sm__brand"
+              />
+            </span>
+            <span class="row--between">
+              <p class="footer-sm__text">Encontranos en las redes</p>
+              <a href="https://www.facebook.com/roller.tyc"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/roller.tyc/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="http://wa.me/5493426130245?text=Hola!%20Necesito%20información"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </span>
+          </div>
+        </div>
+        <!-- footer copy -->
+        <div class="foter-bottom">
+          <div class="container">
+            &copy; Copyright 2023 Roll.ER T&C | By Matias Delgado - Roll.ER
+            Taller Creativo
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

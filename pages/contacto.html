@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imgs/LOGO-MINI-BLANCO.png" />
+    <!-- shift + alt + a = comenta/descomenta -->
+    <!-- shift + alt + flechita abajo = duplica etiqueta -->
+    <!-- ESTILO CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>CORTINAS ROLLER</title>
+
+    <!-- GOOGLE FONT - INSERTAR FUENTE -->
+    <script
+      src="https://kit.fontawesome.com/f0a8fd0838.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONTAWESOME PARA FUENTES DE ICONOS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="row--between">
+          <!-- aca va logo con link inicio-->
+          <a href="../index.html"
+            ><img
+              src="../imgs/LOGO-ROLL-ER-SOLO-BLANCO.png"
+              alt="ROLLER-LOGO"
+              class="header__brand"
+          /></a>
+          <!-- NAV BAR -->
+          <nav>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="../pages/cortinas.html">Cortinas</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="../pages/toldos.html">Toldos</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="../pages/info.html">+Info</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <section>
+        <article class="main__title">
+          <div>
+            <div class="container">
+              <div class="row--center">
+                <h1 class="main__title">CONTACTO</h1>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="container">
+            <div class="col">
+              <div class="article__text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus,
+                  <strong>laudantium, dolores molestiae mollitia</strong>magni
+                  expedita nostrum et quidem voluptatem delectus modi maxime
+                  blanditiis
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- BOTON DE CONTACTO -->
+          <div class="container">
+            <div class="row--center">
+              <a
+                href="http://wa.me/5493426130245?text=Hola!%20Necesito%20información"
+              >
+                <button type="button" class="btn row--center">
+                  <span class="btn__text">Escribinos!</span
+                  ><i class="fa-brands fa-whatsapp"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </article>
+        <!-- formulario cortinas -->
+        <article>
+          <div class="container">
+            <div class="col">
+              <div class="card">
+                <div>
+                  <form action="">
+                    <div class="row--center">
+                      <label for="nombre"></label>
+                      <input
+                        class="form__imput"
+                        type="text"
+                        name="nombre"
+                        id="nombre"
+                        placeholder="NOMBRE"
+                        required
+                      />
+                    </div>
+
+                    <div class="row--center">
+                      <label for="email"></label>
+                      <input
+                        class="form__imput"
+                        type="text"
+                        name="email"
+                        id="email"
+                        placeholder="EMAIL"
+                        required
+                      />
+                      <label for="telefono"></label>
+                      <input
+                        class="form__imput"
+                        type="text"
+                        name="telefono"
+                        id="teleno"
+                        placeholder="TELEFONO"
+                        required
+                      />
+                    </div>
+
+                    <div class="row--center">
+                      <label for="ancho"></label>
+                      <input
+                        class="form__imput"
+                        type="text"
+                        name="ancho"
+                        id="ancho"
+                        placeholder="ANCHO CM"
+                        required
+                      />
+                      <label for="alto"></label>
+                      <input
+                        class="form__imput"
+                        type="text"
+                        name="alto"
+                        id="alto"
+                        placeholder="ALTO CM"
+                        required
+                      />
+                    </div>
+
+                    <div class="row--arround">
+                      <div>
+                        <label for="">Cortina Roller </label>
+                        <input type="radio" name="tipo" value="cortina" />
+                        <br />
+                        <label for="">Toldo </label>
+                        <input type="radio" name="tipo" value="toldo" />
+                      </div>
+                      <div>
+                        <label for="">Motorizada:</label>
+                        <input
+                          type="checkbox"
+                          name="motorizada"
+                          id="motor"
+                          value="1"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="form__imput">
+                      <textarea
+                        name="consulta"
+                        id="consulta"
+                        cols="40"
+                        rows="10"
+                        placeholder="COMENTARIO / TIPO PRODUCTO"
+                      ></textarea>
+                    </div>
+                    <div class="row--arround">
+                      <input type="submit" value="ENVIAR" class="btn" />
+                      <input type="reset" value="BORRAR" class="btn" />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section>
+        <div class="container">
+          <div class="card">
+            <div class="row--arround">
+              <div class="article__text">
+                <p>
+                  NOS ENCONTRAMOS CALLE LAS MACLURAS 2140, RUTA 1 KM 11,5.
+                  ARROYO LEYES, SANTA FE, ARGENTINA.
+                </p>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2858.424632772561!2d-60.53545220540146!3d-31.57194714712415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b45580197cd871%3A0xd0347696364195f1!2zMzHCsDM0JzIxLjAiUyA2MMKwMzInMDYuNSJX!5e0!3m2!1ses!2sar!4v1671715651931!5m2!1ses!2sar"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="col">
+        <!-- footer social media -->
+        <div class="container footer-sm">
+          <div class="row--center">
+            <!-- aca va logo SIN link inicio-->
+            <span
+              ><img
+                src="../imgs/LOGO-ROLL-ER-SOLO-BLANCO.png"
+                alt="ROLLER-TYC"
+                class="footer-sm__brand"
+              />
+            </span>
+            <span class="row--between">
+              <p class="footer-sm__text">Encontranos en las redes</p>
+              <a href="https://www.facebook.com/roller.tyc"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/roller.tyc/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="http://wa.me/5493426130245?text=Hola!%20Necesito%20información"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </span>
+          </div>
+        </div>
+        <!-- footer copy -->
+        <div class="foter-bottom">
+          <div class="container">
+            &copy; Copyright 2023 Roll.ER T&C | By Matias Delgado - Roll.ER
+            Taller Creativo
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
