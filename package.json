@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-roller",
+  "version": "1.0.0",
+  "description": "PreEntrega 3 de proyecto final - CoderHouse - Desarrollo Web - Comisión 48580",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaDe019/PreEntrega2Delgado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaDe019/PreEntrega2Delgado/issues"
+  },
+  "homepage": "https://github.com/MaDe019/PreEntrega2Delgado#readme"
+}
