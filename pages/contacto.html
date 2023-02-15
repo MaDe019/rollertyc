@@ -126,129 +126,149 @@
             ></span>
           </button>
         </a>
-        <!-- formulario cortinas -->
-        <article>
-          <div class="container">
-            <div class="row">
-              <div class="card">
+        <!-- FORMULARIO DE CONTACTO -->
+        <article class="p-2">
+          <div class="container border border-dark rounded-3 shadow mb-1">
+            <div class="col">
+              <form action="">
                 <div>
-                  <form action="">
-                    <div class="row">
-                      <label for="nombre"></label>
-                      <input
-                        class="form__imput"
-                        type="text"
-                        name="nombre"
-                        id="nombre"
-                        placeholder="NOMBRE"
-                        required
-                      />
-                    </div>
-
-                    <div class="row">
-                      <label for="email"></label>
-                      <input
-                        class="form__imput"
-                        type="text"
-                        name="email"
-                        id="email"
-                        placeholder="EMAIL"
-                        required
-                      />
-                      <label for="telefono"></label>
-                      <input
-                        class="form__imput"
-                        type="text"
-                        name="telefono"
-                        id="teleno"
-                        placeholder="TELEFONO"
-                        required
-                      />
-                    </div>
-
-                    <div class="row">
-                      <label for="ancho"></label>
-                      <input
-                        class="form__imput"
-                        type="text"
-                        name="ancho"
-                        id="ancho"
-                        placeholder="ANCHO CM"
-                        required
-                      />
-                      <label for="alto"></label>
-                      <input
-                        class="form__imput"
-                        type="text"
-                        name="alto"
-                        id="alto"
-                        placeholder="ALTO CM"
-                        required
-                      />
-                    </div>
-
-                    <div class="row--arround">
-                      <div>
-                        <label for="">Cortina Roller </label>
-                        <input type="radio" name="tipo" value="cortina" />
-                        <br />
-                        <label for="">Toldo </label>
-                        <input type="radio" name="tipo" value="toldo" />
-                      </div>
-                      <div>
-                        <label for="">Motorizada:</label>
-                        <input
-                          type="checkbox"
-                          name="motorizada"
-                          id="motor"
-                          value="1"
-                        />
-                      </div>
-                    </div>
-
-                    <div class="form__imput">
-                      <textarea
-                        name="consulta"
-                        id="consulta"
-                        cols="40"
-                        rows="10"
-                        placeholder="COMENTARIO / TIPO PRODUCTO"
-                      ></textarea>
-                    </div>
-                    <div class="row--arround">
-                      <input type="submit" value="ENVIAR" class="btn" />
-                      <input type="reset" value="BORRAR" class="btn" />
-                    </div>
-                  </form>
+                  <!-- <label for="nombre" class="form-label"></label> -->
+                  <input
+                    class="form__imput mt-2"
+                    type="text"
+                    name="nombre"
+                    id="nombre"
+                    placeholder="NOMBRE"
+                    required
+                  />
                 </div>
-              </div>
+
+                <div>
+                  <!-- <label for="email" class="form-label"></label> -->
+                  <input
+                    class="form__imput mt-1"
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="EMAIL"
+                    required
+                  />
+                </div>
+                <div>
+                  <!-- <label for="telefono"></label> -->
+                  <input
+                    class="form__imput mt-1"
+                    type="text"
+                    name="telefono"
+                    id="teleno"
+                    placeholder="TELEFONO"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="ancho"></label> -->
+                  <input
+                    class="form__imput mt-1"
+                    type="text"
+                    name="ancho"
+                    id="ancho"
+                    placeholder="ANCHO CM"
+                    required
+                  />
+                </div>
+                <div>
+                  <!-- <label for="alto"></label> -->
+                  <input
+                    class="form__imput mt-1"
+                    type="text"
+                    name="alto"
+                    id="alto"
+                    placeholder="ALTO CM"
+                    required
+                  />
+                </div>
+
+                <div class="col text-center">
+                  <div>
+                    <label for="">Cortina Roller </label>
+                    <input type="radio" name="tipo" value="cortina" />
+                    <br />
+                    <label for="">Toldo </label>
+                    <input type="radio" name="tipo" value="toldo" />
+                  </div>
+                  <div>
+                    <label for="">Motorizada</label>
+                    <input
+                      type="checkbox"
+                      name="motorizada"
+                      id="motor"
+                      value="1"
+                    />
+                    <label for="">Doble</label>
+                    <input
+                      type="checkbox"
+                      name="motorizada"
+                      id="motor"
+                      value="1"
+                    />
+                    <label for="">Guias</label>
+                    <input
+                      type="checkbox"
+                      name="motorizada"
+                      id="motor"
+                      value="1"
+                    />
+                  </div>
+                </div>
+
+                <textarea
+                  class="container border border-dark rounded-3 shadow mt-2 mb-3"
+                  name="consulta"
+                  id="consulta"
+                  cols="40"
+                  rows="5"
+                  placeholder="COMENTARIO / TIPO PRODUCTO"
+                ></textarea>
+
+                <div class="container mb-3">
+                  <input type="submit" value="ENVIAR" class="btn btn__text" />
+                  <input type="reset" value="BORRAR" class="btn btn__text" />
+                </div>
+              </form>
             </div>
           </div>
         </article>
       </section>
+
       <!-- Iframe de ubicacion -->
       <section>
-        <div class="container-md">
-          <div class="card">
-            <div class="row">
-              <div class="article__text">
-                <p>
-                  NOS ENCONTRAMOS CALLE LAS MACLURAS 2140, RUTA 1 KM 11,5.
-                  ARROYO LEYES, SANTA FE, ARGENTINA.
-                </p>
+        <article class="p-2">
+          <div
+            class="container-md container border border-dark rounded-3 shadow mt-2 mb-3"
+          >
+            <div class="p-2">
+              <div class="row">
+                <div class="article__text">
+                  <p>
+                    NOS ENCONTRAMOS CALLE LAS MACLURAS 2140, RUTA 1 KM 11,5.
+                    ARROYO LEYES, SANTA FE, ARGENTINA.
+                  </p>
+                </div>
+                <iframe
+                  class="container card shadow"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2858.424632772561!2d-60.53545220540146!3d-31.57194714712415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b45580197cd871%3A0xd0347696364195f1!2zMzHCsDM0JzIxLjAiUyA2MMKwMzInMDYuNSJX!5e0!3m2!1ses!2sar!4v1671715651931!5m2!1ses!2sar"
+                  width="320"
+                  height="240"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2858.424632772561!2d-60.53545220540146!3d-31.57194714712415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b45580197cd871%3A0xd0347696364195f1!2zMzHCsDM0JzIxLjAiUyA2MMKwMzInMDYuNSJX!5e0!3m2!1ses!2sar!4v1671715651931!5m2!1ses!2sar"
-                width="320"
-                height="240"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
             </div>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <!-- FOOTER -->

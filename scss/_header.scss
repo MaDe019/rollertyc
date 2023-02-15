@@ -1,0 +1,14 @@
+/* ESTILO HEADER */
+header {
+  background-color: #000000;
+  /* para que la barra quede fija cuando hacemos scroll */
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  box-shadow: -5px 5px 15px -7px black;
+}
+
+.header__brand {
+  max-height: 3rem;
+  margin: 5% auto;
+}

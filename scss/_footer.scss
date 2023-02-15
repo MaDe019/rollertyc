@@ -1,0 +1,31 @@
+/* ESTILO FOOTER */
+footer {
+  background-color: #000000;
+  color: white;
+  margin-top: 2%;
+}
+
+.fa-brands,
+.fa-download {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.footer-sm__text {
+  font-size: 1.25rem;
+  /* texto oculto - tengo que definir si mostrar o no */
+  display: none;
+}
+
+.footer-sm__brand {
+  max-height: 2rem;
+  margin: 0 1rem 0 0;
+  /* imagen oculta - tengo que definir si mostrar o no */
+  display: none;
+}
+
+.foter-bottom {
+  background-color: gray;
+  text-align: center;
+  font-size: smaller;
+}

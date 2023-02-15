@@ -1,0 +1,72 @@
+/* reset de estilos precargados navegador */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* ESTILO GENERAL */
+body {
+  font-family: monospace, sans-serif;
+  /* Layout "macro" elegido Pancake Stack
+      PUEDE CAMBIAR MAS ADELANTE, no me gustaba que el footer quede en cualquier lado menos en el pie de pagina */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgb(255, 255, 255), gray);
+}
+
+/* ESTILO MAIN */
+.main__title {
+  margin: 2% auto;
+  color: #000000;
+  font-size: 3rem;
+}
+
+.article__title {
+  margin: 2% auto;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.article__text {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+.article__img {
+  max-width: 100%;
+  min-width: 100px;
+  padding: 5px;
+  box-shadow: 0px 10px 30px -10px black;
+  background-image: linear-gradient(to right, rgb(64, 64, 172), white);
+  transform: rotate(-2deg);
+}
+
+.article__video {
+  width: auto;
+}
+
+/* BUTTON */
+.btn {
+  background: linear-gradient(to right, rgb(78, 78, 78), black);
+  transition: all 5s;
+  box-shadow: 5px 10px 30px -10px black;
+}
+
+.btn:hover {
+  background: rgb(0, 0, 0);
+}
+
+.btn__text {
+  color: white;
+  font-size: 1.25rem;
+}
+
+/* CARDs */
+.card__title {
+  font-size: 1rem;
+  text-align: center;
+}
