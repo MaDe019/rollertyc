@@ -1,14 +1,23 @@
 /* ESTILO HEADER */
 header {
-  background-color: #000000;
+  background-color: $color1;
   /* para que la barra quede fija cuando hacemos scroll */
   position: sticky;
   top: 0px;
   z-index: 2;
-  box-shadow: -5px 5px 15px -7px black;
+  box-shadow: -5px 5px 15px -7px $shadow-color;
+
+  .header__brand {
+    max-height: 3rem;
+    margin: 5% auto;
+  }
 }
 
-.header__brand {
-  max-height: 3rem;
-  margin: 5% auto;
+.navbar-toggler-icon {
+  background-image: none;
+
+  &:before {
+    font-family: FontAwesome;
+    content: "\f0c9";
+  }
 }

@@ -9,24 +9,23 @@
 /* ESTILO GENERAL */
 body {
   font-family: monospace, sans-serif;
-  /* Layout "macro" elegido Pancake Stack
-      PUEDE CAMBIAR MAS ADELANTE, no me gustaba que el footer quede en cualquier lado menos en el pie de pagina */
+  /* Layout "macro" elegido Pancake Stack */
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  background: linear-gradient(135deg, rgb(255, 255, 255), gray);
+  background: linear-gradient(135deg, $color2, $color3);
 }
 
 /* ESTILO MAIN */
 .main__title {
   margin: 2% auto;
-  color: #000000;
+  color: $color1;
   font-size: 3rem;
 }
 
 .article__title {
   margin: 2% auto;
-  color: #000000;
+  color: $color1;
   font-size: 1.5rem;
 }
 
@@ -34,34 +33,22 @@ body {
   text-align: center;
   line-height: 1.5;
   font-size: 1.25rem;
-}
-
-.article__img {
-  max-width: 100%;
-  min-width: 100px;
-  padding: 5px;
-  box-shadow: 0px 10px 30px -10px black;
-  background-image: linear-gradient(to right, rgb(64, 64, 172), white);
-  transform: rotate(-2deg);
-}
-
-.article__video {
-  width: auto;
+  color: $color1;
 }
 
 /* BUTTON */
 .btn {
-  background: linear-gradient(to right, rgb(78, 78, 78), black);
+  background: linear-gradient(to right, $color3, $color1);
   transition: all 5s;
-  box-shadow: 5px 10px 30px -10px black;
-}
+  box-shadow: 5px 10px 30px -10px $shadow-color;
 
-.btn:hover {
-  background: rgb(0, 0, 0);
+  &:hover {
+    background: $color1;
+  }
 }
 
 .btn__text {
-  color: white;
+  color: $color2;
   font-size: 1.25rem;
 }
 
@@ -69,4 +56,9 @@ body {
 .card__title {
   font-size: 1rem;
   text-align: center;
+  color: $color1;
+}
+
+.card {
+  background-color: $color2;
 }
