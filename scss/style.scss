@@ -1,8 +1,13 @@
+/* Variables */
 @import "variables";
+
+/* Partials */
+@import "reset";
+@import "buttons";
 @import "general";
-@import "index";
-@import "contacto";
-@import "mediaq";
-@import "animaciones";
 @import "header";
 @import "footer";
+@import "index";
+@import "forms";
+@import "mediaq";
+@import "animaciones";

@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Nuestro esquipo espera para evacuar dudas y consultas que tengas sobre toldos y cortinas roller."
+    />
+    <meta
+      name="keywords"
+      content="Escribinos, seguinos, consulta, santa fe, redes, atención, duda, contacto, arroyo leyes"
+    />
+    <title>Roll.Er T&C | Contacto</title>
+
     <!-- logo mini pestaña -->
     <link rel="shortcut icon" href="../imgs/LOGO-MINI-BLANCO.png" />
     <!-- shift + alt + a = comenta/descomenta -->
@@ -116,25 +127,42 @@
             </div>
           </div>
         </article>
-        <!-- BOTON DE CONTACTO -->
-        <a
-          href="http://wa.me/5493426130245?text=Hola!%20Necesito%20información"
-        >
-          <button type="button" class="btn container d-grid mb-3 w-75">
-            <span class="btn__text"
-              >Escribinos! <i class="bi bi-whatsapp"></i
-            ></span>
-          </button>
-        </a>
+        <!-- BOTON DE CONTACTO WHATSAPP-->
+
+        <button type="button" class="btn container d-grid mb-3 w-75">
+          <a
+            href="http://wa.me/5493426130245?text=Hola!%20Necesito%20información"
+            ><span class="btn__text"
+              >Escribinos! <i class="bi bi-whatsapp"></i></span
+          ></a>
+        </button>
+
+        <!-- BOTON DE CONTACTO INSTAGRAM-->
+
+        <button type="button" class="btn container d-grid mb-3 w-75">
+          <a href="https://www.instagram.com/roller.tyc/"
+            ><span class="btn__text"
+              >Seguinos! <i class="fa-brands fa-instagram"></i></span
+          ></a>
+        </button>
+
+        <!-- BOTON DE CONTACTO FACEBOOK-->
+
+        <button type="button" class="btn container d-grid mb-3 w-75">
+          <a href="https://www.facebook.com/roller.tyc"
+            ><span class="btn__text"
+              >Me Gusta! <i class="fa-brands fa-square-facebook"></i></span
+          ></a>
+        </button>
+
         <!-- FORMULARIO DE CONTACTO -->
         <article class="p-2">
           <div class="container border border-dark rounded-3 shadow mb-1">
             <div class="col">
-              <form action="">
+              <form name="contact" method="POST" data-netlify="true">
                 <div>
-                  <!-- <label for="nombre" class="form-label"></label> -->
                   <input
-                    class="form__imput mt-2"
+                    class="container mt-2"
                     type="text"
                     name="nombre"
                     id="nombre"
@@ -144,9 +172,8 @@
                 </div>
 
                 <div>
-                  <!-- <label for="email" class="form-label"></label> -->
                   <input
-                    class="form__imput mt-1"
+                    class="container mt-1"
                     type="text"
                     name="email"
                     id="email"
@@ -155,9 +182,8 @@
                   />
                 </div>
                 <div>
-                  <!-- <label for="telefono"></label> -->
                   <input
-                    class="form__imput mt-1"
+                    class="container mt-1"
                     type="text"
                     name="telefono"
                     id="teleno"
@@ -167,9 +193,8 @@
                 </div>
 
                 <div>
-                  <!-- <label for="ancho"></label> -->
                   <input
-                    class="form__imput mt-1"
+                    class="container mt-1"
                     type="text"
                     name="ancho"
                     id="ancho"
@@ -178,9 +203,8 @@
                   />
                 </div>
                 <div>
-                  <!-- <label for="alto"></label> -->
                   <input
-                    class="form__imput mt-1"
+                    class="container mt-1"
                     type="text"
                     name="alto"
                     id="alto"
@@ -191,34 +215,24 @@
 
                 <div class="col text-center">
                   <div>
-                    <label for="">Cortina Roller </label>
+                    <label for="tipo">Cortina Roller </label>
                     <input type="radio" name="tipo" value="cortina" />
                     <br />
-                    <label for="">Toldo </label>
+                    <label for="tipo">Toldo </label>
                     <input type="radio" name="tipo" value="toldo" />
                   </div>
                   <div>
-                    <label for="">Motorizada</label>
+                    <label for="motorizada">Motorizada</label>
                     <input
                       type="checkbox"
                       name="motorizada"
-                      id="motor"
+                      id="motorizada"
                       value="1"
                     />
-                    <label for="">Doble</label>
-                    <input
-                      type="checkbox"
-                      name="motorizada"
-                      id="motor"
-                      value="1"
-                    />
-                    <label for="">Guias</label>
-                    <input
-                      type="checkbox"
-                      name="motorizada"
-                      id="motor"
-                      value="1"
-                    />
+                    <label for="doble">Doble</label>
+                    <input type="checkbox" name="doble" id="doble" value="1" />
+                    <label for="guias">Guias</label>
+                    <input type="checkbox" name="guias" id="guias" value="1" />
                   </div>
                 </div>
 

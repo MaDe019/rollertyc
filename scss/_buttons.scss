@@ -1,0 +1,15 @@
+/* BUTTON */
+.btn {
+  background: linear-gradient(to right, $color3, $color1);
+  transition: all 5s;
+  box-shadow: 5px 10px 30px -10px $shadow-color;
+
+  &:hover {
+    background: $color1;
+  }
+}
+
+.btn__text {
+  color: $color2;
+  font-size: 1.25rem;
+}
