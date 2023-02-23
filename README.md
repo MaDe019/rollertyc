@@ -1,3 +1,3 @@
-# PreEntrega3Delgado
+# EntregaProyectoFinalDelgado
 
-PreEntrega 3 de proyecto final - CoderHouse - Desarrollo Web - Comisión 48580
+Entrega proyecto final - CoderHouse - Desarrollo Web - Comisión 48580
